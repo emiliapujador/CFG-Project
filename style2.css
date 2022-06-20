@@ -1,127 +1,144 @@
 * {
-    box-sizing: border-box;
-  }
+ box-sizing: border-box;
+}
+
+html,
+body {
+ margin: 0px;
+ padding: 0px;
+ background-color: #fff7ed;
+ }
+
+.top-bar-section {
+ display: flex;
+ flex: 1;
+ justify-content: center;
+ align-items: center;
+}
   
-  html,
-  body {
-    margin: 0px;
-    padding: 0px;
-    background-color: #fff7ed;
-  }
-  
-  .top-bar-section {
-    display: flex;
-    flex: 1;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .logo {
+.logo {
     height: 110px;
     display: flex;
-  }
-  .top-bar-section-search {
+}
+  
+.top-bar-section-search {
     display: flex;
     justify-content: flex-end;
     align-items: flex-start;
     flex: 1;
-  }
-  .top-bar {
+}
+.top-bar {
     display: flex;
     height: 120px;
     width: 100%;
-  }
+}
   
-  .search-button {
+.search-button {
     margin-top: 20px;
     margin-right: 26px;
     border: solid #243b30 0.8px;
     background-color: #fff7ed;
     border-radius: 4px;
-  }
+ }
+
   .lens-icon {
     height: 15px;
     margin-top: 22px;
     margin-right: 3px;
-  }
-  .first-division-line {
-    height: 1px;
-    width: 100%;
-    background-color: #999999;
-  }
-  .nav {
+}
+
+  first-division-line {
+  height: 1px;
+  width: 100%;
+  background-color: #999999;
+}
+.nav {
+  display: flex;
+  height: 59.39px;
+  align-items: center;
+  flex-direction: row;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+.navigation-line {
+  display: flex;
+  flex-grow: 6;
+  justify-content: center;
+  align-items: center;
+  font-family: "Playfair Display", serif;
+  color: #243b30;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 17px;
+}
+.sing-in-icon {
+  height: 10px;
+}
+.shop-icon {
+  height: 14.48px;
+}
+
+.aboutus-image1 {
+ width: 100%;
+}
+
+.title{
     display: flex;
-    height: 59.39px;
-    align-items: center;
-    flex-direction: row;
-    margin-left: 50px;
-    margin-right: 50px;
-  }
-  .navigation-line {
-    display: flex;
-    flex-grow: 6;
     justify-content: center;
-    align-items: center;
-    font-family: "Playfair Display", serif;
-    color: #243b30;
-    font-weight: 500;
-    font-style: normal;
-    font-size: 17px;
-  }
-  .sing-in-icon {
-    height: 10px;
-  }
-  .shop-icon {
-    height: 14.48px;
-  }
-  .aboutus-image1 {
-    width: 100%;
-  }
-  .title {
-    display: flex;
-    justify-content: center;
-  }
+}
   
-  .title-text {
-    margin-top: 30px;
-    margin-bottom: 30px;
-    font-family: "Playfair Display", serif;
-    font-style: normal;
-    font-size: 32px;
-    font-weight: 400;
-  }
-  
-  .aboutus-image1 {
-    /* aboutus-image1 1 */
- box-sizing: border-box;
+.title-text {
+margin-top: 30px;
+margin-bottom: 30px;
+font-family: "Playfair Display", serif;
+font-style: normal;
+font-size: 42px;
+font-weight: 400;
+ } 
+
+.container-main {
+display: flex;
+flex-direction: row;
+justify-content: center;
+margin-left: 120px;
+margin-right: 120px;
+position: absolute;
+width: 1014px;
+height: 343px;
+left: 50px;
+top: 1113px;
+}
+
+.aboutus-image1 {
+box-sizing: border-box;
 
 position: absolute;
- width: 1014px;
- height: 675px;
- left: 214px;
- top: 389px;
+width: 1014px;
+height: 675px;
+left: 170px;
+top: 389px;
 
- background: url(aboutus-image.png);
- border: 1px solid #000000;
-  }
+background: url(aboutus-image.png);
+border: 1px none #000000;
+ }
 
-  .container-main {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    margin-left: 120px;
-    margin-right: 120px;
-    text-align: justify;
-    letter-spacing: 0.01em;
-    position: absolute;
-    width: 1014px;
-    height: 343px;
-   left: 100px;
-  top: 1113px;
-  
-  }
-  .line {
+.line {
     height: 1px;
     background-color: black;
+  }
+  .intellectual-property{
+    position: absolute;
+    width: 217px;
+    height: 19px;
+    left: 1172px;
+    top: 1505px;
+    
+    font-family: "Playfair Display", serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 17px;
+    
+    color: black;
   }
   
