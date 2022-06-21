@@ -80,7 +80,10 @@ body {
 
 .aboutus-image1 {
  width: 100%;
+ display: flex;
+ justify-content: center;
 }
+
 
 .title{
     display: flex;
@@ -100,24 +103,22 @@ font-weight: 400;
 display: flex;
 flex-direction: row;
 justify-content: center;
-margin-left: 120px;
-margin-right: 120px;
+margin-left: 100px;
+margin-right: 100px;
 position: absolute;
-width: 1014px;
-height: 343px;
-left: 50px;
-top: 1113px;
+width: 950px;
+height: 330px;
+left: 100px;
+top: 1100px;
 }
 
 .aboutus-image1 {
 box-sizing: border-box;
-
 position: absolute;
-width: 1014px;
-height: 675px;
-left: 170px;
+width: 950px;
+height: 650px;
+left: 200px;
 top: 389px;
-
 background: url(aboutus-image.png);
 border: 1px none #000000;
  }
@@ -130,7 +131,7 @@ border: 1px none #000000;
     position: absolute;
     width: 217px;
     height: 19px;
-    left: 1172px;
+    left: 950px;
     top: 1505px;
     
     font-family: "Playfair Display", serif;
