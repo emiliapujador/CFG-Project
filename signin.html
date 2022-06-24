@@ -1,88 +1,96 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
+  <head>
+    <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Sign in</title>
-    <link rel="stylesheet" href="./sing-in.css"/>
-    <link rel="stylesheet" href="./nav-bar.css">
+    <link rel="stylesheet" href="./sign-in.css" />
+    <link rel="stylesheet" href="./nav-bar.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600&display=swap"
       rel="stylesheet"
     />
-  
-</head>
+  </head>
   <body>
-    <!-- Nav -->
-    <nav class="navigation-bar">
-      <div class="top-bar">
-        <div class="top-bar-section"></div>
-        <div class="top-bar-section">
-          <a href="/">
-            <img
-              id="logo-rosa"
-              class="logo"
-              src="./Images/Logo/Group 1.png"
-              alt="Rosa Nurseries"
+    <div class="fullContainer">
+      <!-- Nav -->
+      <nav class="navigation-bar">
+        <div class="top-bar">
+          <div class="top-bar-section"></div>
+          <div class="top-bar-section">
+            <a href="/">
+              <img
+                id="logo-rosa"
+                class="logo"
+                src="./Images/Logo/Group 1.png"
+                alt="Rosa Nurseries"
+              />
+            </a>
+          </div>
+          <div class="top-bar-section-search">
+            <img class="lens-icon" src="Images/sear-icon.png" alt="Lens icon" />
+            <input class="search-button" type="search" name="search" />
+          </div>
+        </div>
+        <!-- the next div is a division line -->
+        <div class="first-line"></div>
+        <div class="nav">
+          <p class="navigation-line">
+            <a class="navigation-line" href="about-us.html"> ABOUT US </a>
+          </p>
+          <p class="navigation-line">SHOP ONLINE</p>
+          <p class="navigation-line">
+            <a class="navigation-line" href="/#opening-hours"> OPENING HOURS</a>
+          </p>
+          <p class="navigation-line">
+            <a class="navigation-line" href="/#contact-us"> CONTACT US</a>
+          </p>
+          <div class="navigation-line">
+            <a href="signin.html"
+              ><img
+                class="sing-in-icon"
+                src="./Images/sing-in-icon.png"
+                alt="Sign in icon"
+            /></a>
+            <img class="shop-icon" src="./Images/shop.png" alt="Shop icon" />
+          </div>
+        </div>
+      </nav>
+      <!-- end nav -->
+      <main>
+        <div class="big-container-sign-in">
+          <div class="small-container-sign-in">
+            <span class="text-sign-in">SIGN IN</span>
+            <input
+              type="email"
+              placeholder="Email adress"
+              class="sign-in-email"
             />
-          </a>
+            <input
+              type="password"
+              placeholder="Password"
+              class="sign-in-password"
+            />
+            <button class="button-sign-in">SIGN IN</button>
+            <span class="text-help">Need help with your password?</span>
+            <!-- the next div is a line -->
+            <div class="line"></div>
+            <span class="new-account-text">Don't have an account?</span>
+            <button class="button-create-account">CREATE AN ACCOUNT</button>
+          </div>
         </div>
-        <div class="top-bar-section-search">
-          <img class="lens-icon" src="Images/sear-icon.png" alt="Lens icon" />
-          <input class="search-button" type="search" name="search" />
+      </main>
+
+      <footer>
+        <div class="footer-bar">
+          <span class="intellectual-property">
+            © 2022 <a href="/#logo-rosa"> ROSA NURSERIES </a></span
+          >
         </div>
-      </div>
-      <!-- the next div is a division line -->
-      <div class="first-line"></div>
-      <div class="nav">
-        <p class="navigation-line">
-          <a class="navigation-line" href="about-us.html"> ABOUT US </a>
-        </p>
-        <p class="navigation-line">SHOP ONLINE</p>
-        <p class="navigation-line">
-          <a class="navigation-line" href="/#opening-hours"> OPENING HOURS</a>
-        </p>
-        <p class="navigation-line">
-          <a class="navigation-line" href="/#contact-us"> CONTACT US</a>
-        </p>
-        <div class="navigation-line">
-          <a href="signin.html"
-            ><img
-              class="sing-in-icon"
-              src="./Images/sing-in-icon.png"
-              alt="Sign in icon"
-          /></a>
-          <img class="shop-icon" src="./Images/shop.png" alt="Shop icon" />
-        </div>
-      </div>
-    </nav>
-    <!-- end nav -->
-  <main>
-     <div class="title" align="center">
-      <h1 class="title-text">  Ready to See More Plants? <br>  Sign In & Explore! </h1> 
-     <a href="./signin.html"></a>
+      </footer>
     </div>
-    <div class="main">
-      <p class="sign" align="center">Sign in</p>
-      <form class="form1">
-        <input class="un " type="text" align="center" placeholder="Username">
-        <input class="pass" type="password" align="center" placeholder="Password">
-        <a class="submit" align="center">Sign in</a>
-        <p class="forgot" align="center"><a href="#">Forgot Password?</p>
-              
-            <div class="signup-link">
-               Not a member? <a href="#">Signup now</a>
-            </div>
-         </form>
-      </div>
-</main>
-</body>
-<footer>
-    <div class="footer-bar">
-      <span class="intellectual-property">© 2022 <a href="#logo-rosa"> ROSA NURSERIES</a></span>
-    </div>
-  </footer>
+  </body>
 </html>
