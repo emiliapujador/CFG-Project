@@ -1,0 +1,59 @@
+.full-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1;
+}
+
+.big-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.basket-text {
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  color: #243b30;
+  margin-top: 80px;
+  text-align: center;
+}
+.line {
+  background-color: #bbbbbb;
+  height: 1px;
+  margin-left: 20px;
+  margin-right: 20px;
+  width: 100%;
+  max-width: 600px;
+  margin-top: 30px;
+}
+.basket-info {
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  color: #243b30;
+  margin-top: 30px;
+}
+.shop-button {
+  width: 350px;
+  height: 40px;
+  background-color: #243b30;
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  margin-bottom: 100px;
+  border: none;
+  letter-spacing: 0.02em;
+  margin-top: 5px;
+  color: #ffffff;
+  margin-bottom: 150px;
+  margin-top: 50px;
+}
