@@ -59,6 +59,7 @@ a:hover {
   font-weight: 500;
   font-style: normal;
   font-size: 17px;
+  margin: 0;
 }
 .navigation-line:active {
   color: #589578;
@@ -72,3 +73,14 @@ a:hover {
   height: 20px;
 }
 /* end nav */
+
+@media screen and (max-width: 700px) {
+  .nav {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .nav > * {
+    margin: 8px;
+  }
+}
