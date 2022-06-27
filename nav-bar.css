@@ -15,6 +15,10 @@ a {
   text-decoration: none;
 }
 
+a:hover {
+  color: inherit;
+}
+
 .logo {
   height: 110px;
   display: flex;
