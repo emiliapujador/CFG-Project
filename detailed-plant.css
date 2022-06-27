@@ -23,7 +23,6 @@ body {
 
 .image-container {
   flex: 1;
-  background: url(./Images/Hydrangea.jpg);
   background-size: cover;
 }
 
