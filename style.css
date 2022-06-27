@@ -43,11 +43,13 @@
 }
 
 .main-image-1 {
+  width: 100%;
   max-width: 500px;
   margin-left: 60px;
   margin-right: 60px;
 }
 .main-image-2 {
+  width: 100%;
   max-width: 500px;
   margin-left: 60px;
   margin-right: 60px;
@@ -415,4 +417,20 @@
   font-size: 15px;
   line-height: 17px;
   color: #fffdfd;
+}
+
+@media screen and (max-width: 960px) {
+  .plants-section {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .customers-comments {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .container-footer {
+    flex-direction: column;
+  }
 }
