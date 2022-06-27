@@ -71,6 +71,9 @@ main {
   margin-bottom: 0px;
   cursor: pointer;
 }
+.button-sign-in:active {
+  background-color: #375748;
+}
 .text-help {
   font-family: "Playfair Display";
   font-style: normal;
@@ -108,6 +111,9 @@ main {
   color: #ffffff;
   cursor: pointer;
   margin-top: 20px;
+}
+.button-create-account:active {
+  background-color: #375748;
 }
 /* Footer bar*/
 .footer-bar {

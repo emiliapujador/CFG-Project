@@ -16,6 +16,16 @@
   color: #243b30;
   text-align: center;
 }
+.par {
+  font-family: "Helvetica";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  text-align: justify;
+  letter-spacing: 0.01em;
+
+  color: #000000;
+}
 /* Footer bar*/
 .footer-bar {
   display: flex;

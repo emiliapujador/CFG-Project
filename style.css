@@ -132,6 +132,9 @@
   font-weight: 600;
   letter-spacing: 0.02em;
 }
+.button-view-more:active {
+  background-color: #375748;
+}
 .newsletter-section {
   display: flex;
   flex-direction: column;
@@ -181,6 +184,9 @@
   letter-spacing: 0.02em;
   cursor: pointer;
   color: #ffffff;
+}
+.suscribe-button:active {
+  background-color: #375748;
 }
 .newsletter-title-information {
   display: flex;
