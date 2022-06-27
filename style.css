@@ -179,7 +179,7 @@
   margin-bottom: 100px;
   border: none;
   letter-spacing: 0.02em;
-
+  cursor: pointer;
   color: #ffffff;
 }
 .newsletter-title-information {

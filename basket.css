@@ -1,4 +1,4 @@
-.full-container {
+body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -8,7 +8,7 @@ main {
   flex: 1;
 }
 
-.big-container {
+.container {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -54,8 +54,8 @@ main {
   letter-spacing: 0.02em;
   margin-top: 5px;
   color: #ffffff;
-  margin-bottom: 150px;
   margin-top: 50px;
+  cursor: pointer;
 }
 /* Footer bar*/
 .footer-bar {
