@@ -83,7 +83,7 @@
 }
 
 .border-plants {
-  border: 1px solid #999999;
+  /* border: 1px solid #999999; */
 }
 
 .border-plants-margin {
@@ -387,7 +387,7 @@
   letter-spacing: 0.02em;
 }
 .contact-location-islington {
-  margin-top: 30px;
+  margin-top: 25px;
 }
 .phone-number {
   font-family: "Helvetica";
@@ -420,6 +420,16 @@
 }
 
 @media screen and (max-width: 960px) {
+  .indoor-column {
+    width: 100%;
+  }
+
+  .footer-divider {
+    display: none;
+  }
+  .container-contact {
+    padding-bottom: 32px;
+  }
   .plants-section {
     flex-direction: column;
     align-items: center;
