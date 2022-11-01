@@ -265,6 +265,7 @@
   letter-spacing: 0.02em;
   color: #243b30;
 }
+<<<<<<< Updated upstream
 .costumer-name {
   font-family: "Helvetica";
   font-style: normal;
@@ -354,6 +355,14 @@
   width: 1px;
   margin-top: 30px;
   margin-bottom: 50px;
+=======
+.main-image-2 {
+  position: absolute;
+  width: 1014px;
+  height: 675px;
+  left: 214px;
+  top: 389px;
+>>>>>>> Stashed changes
 }
 /* Contact us */
 .container-contact {
